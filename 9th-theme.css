@@ -1,0 +1,1905 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid black; */
+}
+/* ------one---------- */
+.one{
+    height: 13vh;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 3;
+}
+.one>img{
+    position: absolute;
+    height: 8vh;
+    width: 14vw;
+    left: 9vw;
+    top: 2vh;
+}
+.one>ol{
+margin-left: 45vw;
+}
+.one>ol>li{
+float: left;
+list-style:none;
+font-size: 24px;
+margin-top:2vh;
+padding:1vw;
+text-align: center;
+}
+.one>ol>li:hover{
+color:rgba(165, 42, 42, 0.829);
+border-bottom: 4px solid rgba(165, 42, 42, 0.829);
+cursor: pointer;
+
+}
+.a{
+ color: rgba(165, 42, 42, 0.829);
+ border-bottom: 4px solid rgba(165, 42, 42, 0.829) !important;
+}
+/* -----one---------- */
+/* ------two---------- */
+.second{
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.second-two{
+    height: 80%;
+    width: 500%;
+    float: left;
+    transition-duration: 2s;
+}
+.aa{
+    height: 100%;
+    width: 20%;
+    float: left;
+    background-image: linear-gradient(rgba(165, 42, 42, 0.384),rgba(165, 42, 42, 0.404)), url(./imge/slider-01.jpg);
+    background-size: 100% 100%;
+    transition-duration: 2s; 
+    position: relative;
+}
+.oye>img{
+    position: absolute;
+    height: 80vh;
+    width: 32vw;
+    left: 55%;
+    top: 12%;
+}
+.aa>h1{
+    height: 12vh;
+    width: 55vw;
+    color: white;
+    margin-left: 32vh;
+    padding-top: 22vh;
+}
+.aa>p{
+    height: 20vh;
+    width: 36vw;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-left: 32vh;
+}
+.aa>button{
+    height: 8vh;
+    width: 11vw;
+    left: 14vw;
+    border: none;
+    background-color: rgb(71, 69, 69);
+    color:white;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    margin-left: 3vw;
+    /* z-index: 2; */
+ }
+ .second>input:checked+label{
+     background-color: white;
+     color: black;
+ }
+.aa>button::after{
+    content:'';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(230, 81, 0);
+    left: -11vw;
+    transition-duration: 1s;
+    top:0%;
+    cursor: pointer;
+    z-index: 10 !important;
+}
+.aa>button>h5{
+   color: white;
+}
+.aa>button:hover::after{
+left: 0%;
+transition-duration: 1s;
+}
+
+.ab{
+    height: 100%;
+    width: 20%;
+    background-image: linear-gradient(rgba(165, 42, 42, 0.384),rgba(165, 42, 42, 0.404)), url(./imge/slider-02.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.ab>img{
+    position: absolute;
+    height: 80vh;
+    width: 32vw;
+    left: 52%;
+    top: 15%;
+}
+.ab>h1{
+    height: 12vh;
+    width: 55vw;
+    color: white;
+    margin-left: 32vh;
+    padding-top: 22vh;
+}
+.ab>p{
+    height: 20vh;
+    width: 36vw;
+    font-size: 25px;
+    color: white;
+    margin-left: 32vh;
+}
+.ab>button{
+    height: 8vh;
+    width: 11vw;
+    left: 15vw;
+    background-color: rgb(71, 69, 69);
+    color:white;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    
+}
+.ab>button::after{
+    content:'';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: -11vw;
+    transition-duration: 1s;
+    top:0%;
+}
+.ab>button:hover::after{
+left: 0%;
+transition-duration: 1s;
+
+}
+.ac{
+    height: 100%;
+    width: 20%;
+    position: relative;
+    background-image: linear-gradient(rgba(165, 42, 42, 0.384),rgba(165, 42, 42, 0.404)), url(./imge/slider-03.jpg);
+    background-size: 100% 100%;
+}
+.ac>img{
+    position: absolute;
+    height: 83vh;
+    width: 33vw;
+    /* left: 252%; */
+    top: 15%;
+}
+.ac>h1{
+    height: 12vh;
+    width: 55vw;
+    color: white;
+    margin-left: 47vw;
+    padding-top: 22vh;
+}
+.ac>p{
+    height: 20vh;
+    width: 40vw;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-left: 45vw;
+}
+.ac>button{
+    height: 8vh;
+    width: 11vw;
+    left: 45vw;
+    background-color: rgb(71, 69, 69);
+    color:white;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    margin-left: 3vw;
+    border: none;
+}
+.ac>button::after{
+    content:'';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:rgb(230, 81, 0);
+    left: -11vw;
+    transition-duration: 1s;
+    top:0%;
+}
+
+.ac>button:hover::after{
+left: 0%;
+transition-duration: 1s;
+}
+
+.ad{
+    height:  100%;
+    width: 20%;
+    position: relative;
+    background-image: linear-gradient(rgba(165, 42, 42, 0.384),rgba(165, 42, 42, 0.404)), url(./imge/slider-04.jpg);
+    background-size: 100% 100%;
+}
+.ad>img{
+    position: absolute;
+    height: 83vh;
+    width: 33vw;
+    left: 12%;
+    top: 15%;
+}
+.ad>h1{
+    height: 12vh;
+    width: 55vw;
+    color: white;
+    margin-left: 45vw;
+    padding-top: 22vh;
+}
+.ad>p{
+    height: 20vh;
+    width: 36vw;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-left: 43vw;
+}
+.ad>button{
+    height: 8vh;
+    width: 11vw;
+    left: 45vw;
+    background-color: rgb(71, 69, 69);
+    color:white;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    margin-left: 3vw;
+    border: none;
+}
+.ad>button::after{
+    content:'';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:rgb(230, 81, 0);
+    left: -11vw;
+    transition-duration: 1s;
+    top:0%;
+}
+.ad>button:hover::after{
+left: 0%;
+transition-duration: 1s;
+}
+.ae{
+    height: 100%;
+    width: 20%;
+    background-image: linear-gradient(rgba(165, 42, 42, 0.384),rgba(165, 42, 42, 0.404)), url(./imge/slider-05.jpg);
+    background-size: 100% 100%;
+}
+.ae>img{
+    position: absolute;
+    height: 83vh;
+    width: 33vw;
+    left: 55%;
+    top: 15%;
+}
+.ae>h1{
+   height: 12vh;
+   width: 55vw;
+   color: white; 
+   margin-left: 13vw;
+   padding-top: 22vh;
+}
+.ae>p{
+    height: 20vh;
+    width: 40vw;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-left: 13vw;
+}
+.ae>button{
+    height: 8vh;
+    width: 11vw;
+    left: 15vw;
+    background-color: rgb(71, 69, 69);
+    color:white;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    margin-left: 3vw;
+    border: none;
+}
+.ae>button::after{
+    content:'';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:rgb(230, 81, 0);
+    left: -11vw;
+    transition-duration: 1s;
+    top:0%;
+}
+.ae>button:hover::after{
+left: 0%;
+transition-duration: 1s;
+
+}
+#one:checked~ .second-two{
+    margin-left: 0%;
+}
+#two:checked~ .second-two{
+    margin-left: -100%;
+}
+#three:checked~ .second-two{
+    margin-left: -200%;
+}
+#four:checked~ .second-two{
+    margin-left: -300%;
+}
+#five:checked~ .second-two{
+    margin-left: -400%;
+}
+.second>input{
+    display: none;
+}
+.haha{
+    position: relative;
+    top: 94.5vh;
+    left: 43vw;
+    padding:10px 16px 10px 16px ;
+    color: black;
+    background-color: transparent;
+    z-index: 2;
+    font-weight: bold;
+    border-top: 2px solid black;
+    cursor: pointer;
+}
+.haha:hover{
+    background-color: rgba(0, 0, 0, 0.192);
+}
+/* .for{
+     background-color:white;
+} */
+/* ------two---------- */
+/* ------third---------- */
+.third{
+    height: 30vh;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+.third>h1{
+    text-align: center;
+    font-size: 44px;
+    position: absolute;
+    top: -30%;
+    left: 43%;
+}
+.third>p{
+    text-align: center;
+    height: 5vh;
+    width: 68vw;
+    font-size: 20px;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    color: rgba(0, 0, 0, 0.425);
+}
+/* ------third---------- */
+/* ------forth---------- */
+.forth{
+height: 90vh;
+width: 100%;
+background-color: white;
+position: relative;
+}
+.forth>img{
+    position: absolute;
+    height: 86vh;
+    width: 46vw;
+    left: 10%;
+}
+.forth>h1{
+position: absolute;
+font-size: 34px;
+left: 58%;
+font-weight: bold;
+}
+.forth>p{
+position: absolute;
+height: 40vh;
+width: 37vw;
+left: 58%;
+top: 13%;
+font-size: 20px;
+color: rgba(0, 0, 0, 0.384);
+}
+/* ------forth---------- */
+/* ------fifth---------- */
+.fifth{
+    height: 90vh;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    }
+    .fifth>img{
+        position: absolute;
+        height: 86vh;
+        width: 46vw;
+        left: 50%;
+        top: -15%;
+    }
+    .fifth>h1{
+    position: absolute;
+    font-size: 34px;
+    left: 10%;
+    font-weight: bold;
+    }
+    .fifth>p{
+    position: absolute;
+    height: 40vh;
+    width: 37vw;
+    left: 10%;
+    top: 13%;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.384);
+    }
+/* ------fifth---------- */
+/* ------sixth---------- */
+.sixth{
+height: 170vh;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.068);
+position: relative;
+top: -10vh;
+}
+.sixth>h1{
+text-align: center;
+font-size: 54px;
+font-weight: normal;
+padding-top: 10vh;
+
+}
+.sixth>p{
+text-align: center;
+width: 50vw;
+position: absolute;
+left: 25%;
+top: 18%;
+color: rgba(105, 44, 44, 0.233);
+}
+.sixth-one{
+    background-color: white;
+    height: 45vh;
+    width: 25vw;
+}
+.sixth-one-one{
+    height: 17vh;
+    width: 8vw;
+    margin: 3vh 0 0 1.5vw;
+    background-color: rgba(85, 14, 14, 0.678);
+    position: relative;
+}
+ .sixth-one>h1{
+   font-size: 28px;
+   font-weight: normal;
+   padding-top: 2vh;
+   margin-left: 1.5vw;
+ }
+ .sixth-one>p{
+    margin-left: 1.5vw;
+    width: 25vw;
+    font-size: 18px;
+    color:rgba(85, 14, 14, 0.678) ;
+    padding-top: 2vh;
+}
+.sixth-one-one::after{
+    content:'';
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    background-color:orangered;
+    transition-duration: 1s;
+    margin: 10% 10%;
+}
+.sixth-one:hover>::after{
+    background-color: orangered;
+    transition-duration: 1s;
+    cursor: pointer;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+.sixth-onne{
+    position: absolute;
+    top: 28%;
+    left: 12%;
+}
+.sixth-two{   
+ position: absolute;
+ left: 40%;
+ top: 28%;
+}
+.sixth-three{
+    position: absolute;
+    left: 68%;
+    top: 28%;
+}
+.sixth-four{
+    position: absolute;
+    left: 12%;
+    top: 62%;
+}
+.sixth-five{
+    position: absolute;
+    left: 40%;
+    top: 62%;
+}
+.sixth-sixth{
+    position: absolute;
+    left: 68%;
+    top: 62%;
+}
+/* ------sixth---------- */
+/* ------seventh---------- */
+.seventh{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    background-color: rgb(77, 71, 71);
+    top: -10vh;
+}
+.seventh-one{
+    position: absolute;
+    height: 100%;
+    width: 25%;
+}
+.seventh-one:hover{
+    background-color: orangered;
+    transition-duration: 3s;
+    cursor: pointer;
+}
+.seventh-one>h1{
+    position: absolute;
+    color: white;
+    top: 12vh;
+    left: 10vw;
+}
+.seventh-one>h2{
+    position: absolute;
+    color: white;
+    top: 20vh;
+    left: 5vw; 
+    font-size: 28px;
+    font-weight: normal; 
+}
+.seventh-one>p{
+    position: absolute;
+    color: white;
+    top: 26vh;
+    left: 1.5vw;
+    font-size: 18px;
+    text-align: center;
+}
+.seventh-two{
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    left: 25%;
+}
+.seventh-two:hover{
+    background-color: orangered;
+    transition-duration: 3s;
+    cursor: pointer;
+}
+.seventh-two>h1{
+    position: absolute;
+    color: white;
+    top: 12vh;
+    left: 10vw;
+}
+.seventh-two>h2{
+    position: absolute;
+    color: white;
+    top: 20vh;
+    left: 5vw; 
+    font-size: 28px;
+    font-weight: normal; 
+}
+.seventh-two>p{
+    position: absolute;
+    color: white;
+    top: 26vh;
+    left: 1.5vw;
+    font-size: 18px;
+    text-align: center;
+}
+.seventh-three{
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    left: 50%;
+}
+.seventh-three:hover{
+    background-color: orangered;
+    transition-duration: 3s;
+    cursor: pointer;
+}
+.seventh-three>h1{
+    position: absolute;
+    color: white;
+    top: 12vh;
+    left: 10vw;
+}
+.seventh-three>h2{
+    position: absolute;
+    color: white;
+    top: 20vh;
+    left: 5vw; 
+    font-size: 28px;
+    font-weight: normal; 
+}
+.seventh-three>p{
+    position: absolute;
+    color: white;
+    top: 26vh;
+    left: 1.5vw;
+    font-size: 18px;
+    text-align: center;
+}
+.seventh-four{
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    left: 75%;
+}
+.seventh-four:hover{
+    background-color: orangered;
+    transition-duration: 3s;
+    cursor: pointer;
+}
+.seventh-four>h1{
+    position: absolute;
+    color: white;
+    top: 12vh;
+    left: 10vw;
+}
+.seventh-four>h2{
+    position: absolute;
+    color: white;
+    top: 20vh;
+    left: 5vw; 
+    font-size: 28px;
+    font-weight: normal; 
+}
+.seventh-four>p{
+    position: absolute;
+    color: white;
+    top: 26vh;
+    left: 1.5vw;
+    font-size: 18px;
+    text-align: center;
+}
+/* ------seventh---------- */
+/* <!-- ---------8th (start)---------- --> */
+.eight-main{
+    height: 30vh;
+    width: 100%;
+    position: relative;
+    top: 5vh;
+}
+.eight-main>h1{
+position: absolute;
+left: 34%;
+font-size: 44px;
+}
+.eight-main>p{
+    position: absolute;
+    text-align: center;
+    width: 53%;
+    left: 22%;
+    top: 44%;
+    color: rgba(168, 106, 106, 0.774);
+    font-size: 16px;
+}
+.eight-one{
+    margin-left: 12vw;
+    margin-top: 5vh;
+    height: 80vh;
+    width: 84%;
+    position: relative;
+}
+.eight-one>img{
+    position: absolute;
+    width: 29%;
+    height: 110vh;
+}
+.ei{
+    transform: skewY(10deg);
+    position: absolute;
+    height: 100vh !important;
+}
+.gh{
+    position: absolute;
+    border-radius: 35px;
+    left: 30%;
+    width: 32% !important;
+    height: 115vh !important;
+    margin-top: -3.5vh !important;
+    /* left: 26vw; */
+
+}
+.t{
+ position: absolute;
+ left: 63%;
+ height: 50%;
+ transform: skewY(-10deg);
+ height: 100vh !important;
+
+}
+
+/* <!-- ---------8th (end)---------- --> */
+/* <!-- ---------9th (start)---------- --> */
+  .ninth{
+      height: 90vh;
+      width: 100%;
+      position: relative;
+      background-image: linear-gradient(rgba(224, 145, 102, 0.644),rgba(224, 145, 102, 0.801)),url(./imge/d-bg.jpg);
+      top: 44vh;
+      background-size: 120% 180%;
+    }
+    .ninth>h1{
+     position: absolute;
+     top: 29vh;
+     left: 8vw;
+     color: white;
+     font-size: 50px;
+     font-weight: normal;
+    }
+    .ninth>p{
+        position: absolute;
+        top: 42vh;
+        left: 8vw;
+        color: white;
+        width: 38vw;
+        font-size: 18px;
+    }
+    .ninth>img{
+        height: 80vh;
+        width: 40vw;
+        position: absolute;
+        left: 52%;
+        top: 13%;
+    }
+/* <!-- ---------9th (end)---------- --> */
+/* <!-- ---------10th (start)---------- --> */
+  .tenth{
+      height: 30vh;
+      width: 100%;
+      background-color: white;
+      margin-top: 44vh;
+      position: relative;
+  }
+.tenth-one{
+position: absolute;
+height: 80%;
+width: 15%;
+left: 25%;
+background-color: black;
+color: white;
+text-align: center;
+}
+.tenth-one:hover{
+    cursor: pointer;
+    background-color: orangered;
+    transition-duration: 3s;
+}
+.tenth-one>h3{
+    margin-top: 5vh;
+}
+.tenth-one>h1{
+    margin-top: 2vh;
+}
+.tenth-two{
+    position: absolute;
+    height: 80%;
+    width: 15%;
+    left: 40%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.tenth-two:hover{
+    cursor: pointer;
+    background-color: orangered;
+    transition-duration: 3s;
+}
+.tenth-two>h3{
+    margin-top: 5vh;
+}
+.tenth-two>h1{
+    margin-top: 2vh;
+}
+    .tenth-three{
+        position: absolute;
+        height: 80%;
+        width: 15%;
+        left: 55%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        }
+        .tenth-three:hover{
+            cursor: pointer;
+            background-color: orangered;
+            transition-duration: 3s;
+        }
+        .tenth-three>h3{
+            margin-top: 5vh;
+        }
+        .tenth-three>h1{
+            margin-top: 2vh;
+        }
+        .tenth-four{
+            height: 35vh;
+            width: 100%;
+            background-color: white;
+         position: relative;
+        }
+        .tenth-four>h1{
+            position: absolute;
+            left: 35%;
+            top: 10vh;
+            font-size: 48px;
+        }
+        .tenth-four>p{
+            position: absolute;
+            left: 20%;
+            top: 25vh;
+            width: 52%;
+            text-align: center;
+            color: rgba(173, 157, 157, 0.719);
+        }
+/* <!-- ---------10th (end)---------- --> */
+/* <!-- ---------11th (start)---------- --> */
+.eleven-main{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    top: 15vh;
+}
+.eleven-one{
+    position: absolute;
+    height: 90%;
+    width: 33%;
+    left: 8vw;
+    overflow: hidden;
+}
+.eleven-one::after{
+    content: '';
+    height: 50%;
+    width: 15%;
+    background-color: orangered;
+    transition-duration: 1s;
+    position: absolute;
+    top: -50%;
+    left: 65%;
+}
+.eleven-one:hover::after{
+   margin-top: 57%;
+}
+.image{
+    overflow: hidden;
+    height: 50vh;
+    width: 27vw;
+    position: absolute;
+}
+.image::before{
+    content: '';
+    height: 50vh;
+    width: 27vw;
+    background-color:rgba(255, 255, 255, 0.336);
+    transition-duration: 1s;
+    position: absolute;
+    top: 100%;
+}
+.image:hover::before{
+    top:0%;
+}
+.image>img{
+    height: 50vh;
+    width: 27vw;
+}
+.eleven-one>h1{
+    position: absolute;
+    font-size: 20px;
+    left: 8vw;
+    top: 25vw;
+}
+.pad1{
+    height: 1vh;
+    width: 5vh;
+    position: absolute;
+    border-bottom: 2px solid orangered;
+    left: 8.2vw;
+    top: 27vw;
+}
+.eleven-one:hover>.pad1{
+     left: 6vw;
+    padding-right: 28px;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+.eleven-one>h2{
+    position: absolute;
+    font-size: 60px;
+    left: 10.6vw;
+    top: 23.9vw;
+}
+.pad2{
+    height: 1vh;
+    width: 5vh;
+    position: absolute;
+    border-bottom: 2px solid orangered;
+    left: 11.8vw;
+    top: 27vw;
+}
+
+.eleven-one:hover>.pad2{
+    transition-duration:2s ;
+    padding-left: 3vw;
+    cursor: pointer;
+}
+.eleven-one>h3{
+    position: absolute;
+    font-size: 20px;
+    left: 6vw;
+    top: 29vw;
+}
+.eleven-one>p{
+    position: absolute;
+    width: 70%;
+    left: 1vw;
+    top: 33vw;
+    text-align: center;
+    color: rgba(114, 73, 59, 0.514);
+}
+.eleven-two{
+    position: absolute;
+    height: 90%;
+    width: 33%;
+    left: 37vw;
+    overflow: hidden;
+}
+.eleven-two::after{
+    content: '';
+    height: 50%;
+    width: 15%;
+    background-color: orangered;
+    transition-duration: 1s;
+    position: absolute;
+    top: -50%;
+    left: 65%;
+}
+.eleven-two:hover::after{
+   margin-top: 57%;
+}
+.image1{
+    overflow: hidden;
+    height: 50vh;
+    width: 27vw;
+    position: absolute;
+}
+.image1::before{
+    content: '';
+    height: 50vh;
+    width: 27vw;
+    background-color:rgba(255, 255, 255, 0.336);
+    transition-duration: 1s;
+    position: absolute;
+    top: 100%;
+}
+.image1:hover::before{
+    top:0%;
+}
+.image1>img{
+    height: 50vh;
+    width: 27vw;
+}
+.eleven-two>h1{
+    position: absolute;
+    font-size: 20px;
+    left: 9vw;
+    top: 25vw;
+}
+.pad3{
+    height: 1vh;
+    width: 5vh;
+    position: absolute;
+    border-bottom: 2px solid orangered;
+    left: 8.2vw;
+    top: 27vw;
+}
+.eleven-two:hover>.pad3{
+     left: 6vw;
+    padding-right: 28px;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+.eleven-two>h2{
+    position: absolute;
+    font-size: 60px;
+    left: 10.6vw;
+    top: 23.9vw;
+}
+.pad4{
+    height: 1vh;
+    width: 5vh;
+    position: absolute;
+    border-bottom: 2px solid orangered;
+    left: 11.8vw;
+    top: 27vw;
+}
+
+.eleven-two:hover>.pad4{
+    transition-duration:2s ;
+    padding-left: 3vw;
+    cursor: pointer;
+}
+.eleven-two>h3{
+    position: absolute;
+    font-size: 20px;
+    left: 7.5vw;
+    top: 29vw;
+}
+.eleven-two>p{
+    position: absolute;
+    width: 70%;
+    left: 1vw;
+    top: 33vw;
+    text-align: center;
+    color: rgba(114, 73, 59, 0.514);
+}
+.eleven-three{
+    position: absolute;
+    height: 90%;
+    width: 33%;
+    left: 66vw;
+    overflow: hidden;
+}
+.eleven-three::after{
+    content: '';
+    height: 50%;
+    width: 15%;
+    background-color: orangered;
+    transition-duration: 1s;
+    position: absolute;
+    top: -50%;
+    left: 65%;
+}
+.eleven-three:hover::after{
+   margin-top: 57%;
+}
+.image2{
+    overflow: hidden;
+    height: 50vh;
+    width: 27vw;
+    position: absolute;
+}
+.image2::before{
+    content: '';
+    height: 50vh;
+    width: 27vw;
+    background-color:rgba(255, 255, 255, 0.336);
+    transition-duration: 1s;
+    position: absolute;
+    top: 100%;
+}
+.image2:hover::before{
+    top:0%;
+}
+.image2>img{
+    height: 50vh;
+    width: 27vw;
+}
+.eleven-three>h1{
+    position: absolute;
+    font-size: 20px;
+    left: 7vw;
+    top: 25vw;
+}
+.pad5{
+    height: 1vh;
+    width: 5vh;
+    position: absolute;
+    border-bottom: 2px solid orangered;
+    left: 8.2vw;
+    top: 27vw;
+}
+.eleven-three:hover>.pad5{
+     left: 6vw;
+    padding-right: 28px;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+.eleven-three>h2{
+    position: absolute;
+    font-size: 60px;
+    left: 10.6vw;
+    top: 23.9vw;
+}
+.pad6{
+    height: 1vh;
+    width: 5vh;
+    position: absolute;
+    border-bottom: 2px solid orangered;
+    left: 11.8vw;
+    top: 27vw;
+}
+.eleven-three:hover>.pad6{
+    transition-duration:2s ;
+    padding-left: 3vw;
+    cursor: pointer;
+}
+.eleven-three>h3{
+    position: absolute;
+    font-size: 20px;
+    left: 7.5vw;
+    top: 29vw;
+}
+.eleven-three>p{
+    position: absolute;
+    width: 70%;
+    left: 1vw;
+    top: 33vw;
+    text-align: center;
+    color: rgba(114, 73, 59, 0.514);
+}
+/* <!-- ---------11th (end)---------- --> */
+/* <!-- ---------12th (start)---------- --> */
+.twelve{
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(117, 112, 112, 0.582) ,rgba(117, 112, 112, 0.623)), url(./imge/ben_img_2.jpg);
+    position: relative;
+    top: 15vh;
+}
+.twelve-one{
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    left: 10%;
+    top: 20%;
+}
+
+.twe{
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-color: orangered;
+    left: 20%;
+    top: 10%;
+}
+.twelve-one>h1{
+    position: absolute;
+    color: white;
+    top: 42%;
+    left: 22%;
+    font-size: 49px;
+}
+.twelve-one>h2{
+    position: absolute;
+    color: orangered;
+    top: 58%;
+    left: 20%;
+    font-size: 30px;
+}
+.twelve-two{
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    left: 30%;
+    top: 20%;
+}
+
+.wel{
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-color: orangered;
+    left: 20%;
+    top: 10%;
+}
+.twelve-two>h1{
+    position: absolute;
+    color: white;
+    top: 42%;
+    left: 22%;
+    font-size: 49px;
+
+}
+.twelve-two>h2{
+    position: absolute;
+    color: orangered;
+    top: 58%;
+    left: 20%;
+    font-size: 30px;
+}
+.twelve-three{
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    left: 50%;
+    top: 20%;
+}
+
+.elv{
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-color: orangered;
+    left: 20%;
+    top: 10%;
+}
+.twelve-three>h1{
+    position: absolute;
+    color: white;
+    top: 42%;
+    left: 22%;
+    font-size: 49px;
+
+}
+.twelve-three>h2{
+    position: absolute;
+    color: orangered;
+    top: 58%;
+    left: 20%;
+    font-size: 30px;
+}
+.twelve-four{
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    left: 70%;
+    top: 20%;
+}
+
+.lve{
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-color: orangered;
+    left: 20%;
+    top: 10%;
+}
+.twelve-four>h1{
+    position: absolute;
+    color: white;
+    top: 42%;
+    left: 22%;
+    font-size: 49px;
+
+}
+.twelve-four>h2{
+    position: absolute;
+    color: orangered;
+    top: 58%;
+    left: 20%;
+    font-size: 30px;
+}
+/* <!-- ---------12th (end)---------- --> */
+/* <!-- ---------13th (start)---------- --> */
+.thirteen{
+    height: 140vh;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.219);
+    position: relative;
+    top: 15vh;
+    overflow: hidden;
+}
+.thirteen-one>h1{
+    position: absolute;
+    left: 42%;
+    top: 10%;
+    font-size: 50px;
+}
+.thirteen-one>p{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 55vw;
+    text-align: center;
+    color: rgb(180, 138, 138);
+}
+.thirteen-two{
+    height: 90vh;
+    width: 25vw;
+    position: absolute;
+    top: 35%;
+    left: 11%;
+    text-align: center;
+}
+.thirteen-two:hover{
+    transition-duration: 1s;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.507);
+
+}
+.thirteen-two>h1{
+    color: orangered;
+    font-size: 60px;
+    margin-top: 5vh ;
+}
+.thirteen-two>h2{
+     color: orangered;
+      font-weight: normal;
+      margin-top: 3vh;
+}
+.thirteen-two>button{
+    height: 8vh;
+    width: 12vw;
+    background-color: rgb(85, 68, 68);
+    color: white;
+    /* margin-top: 3vh; */
+    border: none;
+   font-size: 20px;
+}
+.cccc{
+    clip-path: polygon(84% 32%, 100% 50%, 84% 73%, 11% 72%, 0 53%, 13% 32%);
+    padding:8vh 0 10vh 0;
+}
+.thirteen-two>h3{
+    margin-top: 3.5vh;
+    font-weight: normal;
+}
+.thirteen-two:hover>button{
+    background-color: orangered;
+    transition-duration: 1s;
+}
+.thirteen-three{
+    height: 90vh;
+    width: 25vw;
+    position: absolute;
+    top: 35%;
+    left: 38%;
+    text-align: center;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.507);
+}
+.thirteen-three>h1{
+    color: orangered;
+    font-size: 60px;
+    margin-top: 5vh ;
+}
+.thirteen-three>h2{
+     color: orangered;
+      font-weight: normal;
+      margin-top: 3vh;
+}
+.thirteen-three>button{
+    height: 8vh;
+    width: 12vw;
+    background-color: rgb(85, 68, 68);
+    color: white;
+    /* margin-top: 3vh; */
+    border: none;
+    font-size: 20px;
+}
+.dddd{
+    clip-path: polygon(84% 32%, 100% 50%, 84% 73%, 11% 72%, 0 53%, 13% 32%);
+    padding:8vh 0 10vh 0;
+}
+.thirteen-three>h3{
+    margin-top: 3vh;
+    font-weight: normal;
+}
+.thirteen-three:hover>button{
+    background-color: orangered;
+    transition-duration: 1s;
+}
+.thirteen-four{
+    height: 90vh;
+    width: 25vw;
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    text-align: center;
+}
+.thirteen-four:hover{
+    transition-duration: 1s;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.507);
+}
+.thirteen-four>h1{
+    color: orangered;
+    font-size: 60px;
+    margin-top: 5vh ;
+}
+.thirteen-four>h2{
+     color: orangered;
+      font-weight: normal;
+      margin-top: 3vh;
+}
+.thirteen-four>button{
+    height: 8vh;
+    width: 12vw;
+    background-color: rgb(85, 68, 68);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.ffff{
+    clip-path: polygon(84% 32%, 100% 50%, 84% 73%, 11% 72%, 0 53%, 13% 32%);
+    padding:8vh 0 10vh 0;
+}
+.thirteen-four>h3{
+    margin-top: 3.5vh;
+    font-weight: normal;
+}
+.thirteen-four:hover>button{
+    background-color: orangered;
+    transition-duration: 1s;
+}
+/* <!-- ---------13th (end)---------- --> */
+/* <!-- ---------14th (start)---------- --> */
+.forteen{
+    height: 30vh;
+    width: 100%;
+    position: relative;
+    top: 15vh;
+}
+.forteen>h1{
+    position: absolute;
+    left: 42%;
+    top: 50%;
+    font-size: 40px;
+}
+.forteen>p{
+    position: absolute;
+    left: 25%;
+    top: 95%;
+    width: 55vw;
+    text-align: center;
+    color: rgb(180, 138, 138);
+    line-height: 25px;
+}
+
+/* <!-- ---------14th (end)---------- --> */
+/* <!-- ---------15th (start)---------- --> */
+.fifteen{
+    height: 58vh;
+    width: 45%;
+    background-color: white;
+    position: relative;
+    top: 30vh;
+    border: 3px solid white;
+    left: 25%;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(85, 80, 80, 0.87);
+
+}
+.fifteen-main{
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    transition-duration: .5s;
+}
+.slllider{
+    overflow: hidden;
+    height: 100%;
+    width: 33.3%;
+    float: left ;
+    transition-duration: .5s;
+}
+ .commas{
+    position: relative;
+    height: 3vh;
+    width: 3vh;
+    top: 18%;
+    left: 2vw ;
+    transform: rotate(180deg);
+}
+.slllider>p{
+margin: 7vh 0 0 10vh;
+width: 80vh;
+text-align: center;
+color: rgb(156, 98, 98);
+}
+.slllider>h1{
+    margin: 5vh 0 0 15vw;
+}
+.slllider>h3{
+    margin: 2vh 0 0 17vw;
+    color: rgb(156, 98, 98);
+}
+#Nadia:checked~ .fifteen-main{
+    margin-left: 0%;
+}
+#Sadia:checked~ .fifteen-main{
+    margin-left: -100%;
+}
+#Ayesha:checked~ .fifteen-main{
+    margin-left: -200%;
+}
+.fifteen>input{
+    display: none;
+}
+.panga{
+    position: relative;
+    top: 50vh;
+    left: 15vw;
+    z-index: 2;
+    border-top: 2px solid black;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.panga>img{
+    height: 7vh;
+    width: 3vw;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.fifteen>input:checked+label>img{
+    border: 3px solid orangered ;
+ 
+} 
+/* <!-- ---------15th (end)---------- --> */
+/* <!-- ---------16th (start)---------- --> */
+ .sixteen{
+     height: 90vh;
+     width: 100%;
+     background-color: orangered;
+     margin-top: 50vh;
+     position: relative;
+    }
+    .sixteen-one{
+        height: 2vh;
+        width: 1vw;
+        border: 1px solid black;
+        border-radius: 50%;
+        position: absolute;
+        top: 20vh;
+        left: 10vw;
+    }
+    .sixteen-two{
+        height: 29vh;
+        width: 1vw;
+        border-left: 1px solid black;
+        position: absolute;
+        top: 22.4vh;
+        left: 10.5vw;
+    }
+    .sixteen-three{
+        height: 2vh;
+        width: 1vw;
+        border: 1px solid black;
+        border-radius: 50%;
+        position: absolute;
+        top: 51.5vh;
+        left: 10vw;
+    }
+    .sixteen-four{
+        height: 10vh;
+        width: 1vw;
+        border-left: 1px solid black;
+        position: absolute;
+        top: 54vh;
+        left: 10.5vw; 
+    }
+    .sixteen-five{
+        height: 2vh;
+        width: 1vw;
+        border: 1px solid black;
+        border-radius: 50%;
+        position: absolute;
+        top: 64vh;
+        left: 10vw;
+    }
+    .sixteen-six{
+        position: absolute;
+        height: 38vh;
+        width: 33vw;
+        background-color: white;
+        top: 13vh;
+        left: 13vw;
+        border-left: 2px solid black;
+    }
+    .mins{
+        height: 3vh;
+        width: 1.5vw;
+        border: 1px solid black;
+        border-radius: 50%;
+        position: absolute;
+        top: 3vh;
+        left: 30vw;
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+    }
+    .mins>p{
+        font-size: 40px;
+        margin-top: -18px;
+    }
+    .sixteen-six>h1{
+        margin-left: 2vw;
+        margin-top: 2vh;
+        font-weight: normal;
+    }
+    .sixteen-six>p{
+        width: 31vw;
+        color: rgba(122, 111, 111, 0.651);
+        font-size: 17.5px;
+        margin-left: 2vw;
+        margin-top: 5vh;
+    }
+    .sixteen-seven{
+        position: absolute;
+        height: 8vh;
+        width: 33vw;
+        background-color: white;
+        top: 52.5vh;
+        left: 13vw;
+        border-left: 2px solid black;   
+    }
+    .sixteen-seven>h1{
+        margin-left: 2vw;
+        margin-top: 2vh;
+        font-weight: normal;
+    }
+   
+    .sixteen-eight{
+        position: absolute;
+        height: 8vh;
+        width: 33vw;
+        background-color: white;
+        top: 62vh;
+        left: 13vw;
+        border-left: 2px solid black;   
+    }
+    .sixteen-eight>h1{
+        margin-left: 2vw;
+        margin-top: 2vh;
+        font-weight: normal;
+        font-size: 28px;
+    }
+ .plus>p{
+     font-size: 25px;
+     margin-top: -3px;
+ } 
+    .sixteen-nine>img{
+     height: 75vh;
+     width: 40vw;
+     position: absolute;
+     left: 50vw;
+     top: 8%;
+    }      
+/* <!-- ---------16th (end)---------- --> */
+/* <!-- ---------17th (Start)---------- --> */
+.seventeen{
+    position: relative;
+    height: 120Vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(58, 58, 58),rgb(58, 58, 58));
+}
+.seventeen>h1{
+    position: absolute;
+    top: 8vh;
+    left: 40vw;
+    font-size: 48px;
+    color: white;
+}
+.hoho{
+    height: 5vh;
+    width: 1.8vw;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 20vh;
+    left: 50vw;
+}
+
+.hoho>h1{
+    margin-left: .3vw;
+    font-weight: bold;
+}
+.hihi{
+    height: 25vh;
+    width: 15vw;
+    background-color: orangered;
+    clip-path: polygon(0 100%, 100% 100%, 100% 47%, 73% 46%, 64% 29%, 51% 46%, 0 46%);
+    position: absolute;
+    top: 20vh;
+    left: 41vw;
+    visibility: hidden;
+}
+.hihi>p{
+       padding-top: 12vh;
+       width: 15vw;
+}
+.hoho:hover~.hihi{
+visibility: visible;
+}
+#t{
+    height: 10vh;
+    width: 39vw;
+    position: absolute;
+    left: 10vw;
+    top: 40vh;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+#t::placeholder{
+    color: white;
+    font-size: 16px;
+    padding-left: 1vw;
+}
+#y{
+    height: 10vh;
+    width: 39vw;
+    position: absolute;
+    left: 51vw;
+    top: 40vh;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+#p{
+    height: 10vh;
+    width: 39vw;
+    position: absolute;
+    left: 10vw;
+    top: 55vh;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+#p::placeholder{
+    color: white;
+    font-size: 16px;
+    padding-left: 1vw;
+}
+#oi{
+    height: 10vh;
+    width: 39vw;
+    position: absolute;
+    left: 51vw;
+    top: 55vh;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+#oi::placeholder{
+    color: white;
+    font-size: 16px;
+    padding-left: 1vw;
+}
+#oe{
+    height: 10vh;
+    width: 79vw;
+    position: absolute;
+    left: 10vw;
+    top: 85vh;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+#oe::placeholder{
+    color: white;
+    font-size: 18px;
+    padding-left: 1vw;
+}
+.get{
+    height: 6.5vh;
+    width: 11vw;
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    top: 103vh;
+    left: 10vw;
+    text-align: center;
+     padding-top: 3vh;
+    overflow: hidden;
+    z-index: 15;
+}
+.get>h3{
+    z-index: 15;
+    
+}
+.get::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: orangered;
+    transition-duration: 1s;
+    top: 0.1px;
+    left: -11vw;
+    visibility: hidden;
+    z-index: 15;
+}
+.get:hover::after{
+visibility: visible;
+}
+
+
+/* <!-- ---------17th (end)---------- --> */
+/* <!-- ---------18th (Start)---------- --> */
+.eighteen{
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.eighteen>h1{
+    position: absolute;
+    color: white;
+    top: 8vh;
+    left: 31vw;
+    font-size: 40px;
+}
+.eighteen>p{
+    position: absolute;
+    color: rgba(196, 150, 150, 0.514);
+    top: 18vh;
+    left: 25vw;
+    width: 47vw;
+    font-size:18px ;
+}
+#email{
+    height: 8vh;
+    width: 22vw;
+    position: absolute;
+    left: 30vw;
+    top: 32vh;
+    border: none;
+    background-color: white;
+}
+#email::placeholder{
+    color: rgba(66, 60, 60, 0.514);
+    font-size: 20px;
+    padding-left: 1.5vw;
+}
+.eighteen-one{
+    height: 8vh;
+    width: 8vw;
+    background-color: orangered;
+    position: absolute;
+    left: 50vw;
+    top: 32vh;
+}
+.eighteen-one:hover{
+    background-color: rgb(110, 105, 105);
+    transition-duration: 1s;
+}
+/* <!-- ---------18th (end)---------- --> */
+/* <!-- ---------19th (Start)---------- -->  */
+.nineteen{
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 5vh;
+    border-top: 1px dotted gray;
+    background-color: black;
+    color: rgba(128, 128, 128, 0.459);
+}
+/* <!-- ---------19th (end)---------- -->  */
